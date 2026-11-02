@@ -1,0 +1,23 @@
+name: 작업
+description: Jira를 쓸 수 없을 때 작업을 등록합니다
+title: "[BL-00] "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 할 일
+      description: 무엇을 왜 하는지 적습니다
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: 완료 조건
+      placeholder: "- [ ] 화면 ①에 AI 판정 안내가 있다"
+    validations:
+      required: true
+  - type: input
+    id: points
+    attributes:
+      label: 스토리 포인트
+      placeholder: "2"
