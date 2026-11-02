@@ -8,6 +8,8 @@
 
 **청년 지원금 AI 판정 서비스 v1.1 개선.** 지금 운영 중인 v1.0의 문서는 [service](service/) 폴더에 있습니다. 먼저 [프로젝트 소개](project/brief.md)를 읽으세요.
 
+강의 슬라이드: [PDF](slides/project-method-2.pdf)
+
 ## 시작하기 (5교시, 팀별 1회)
 
 1. 이 저장소 오른쪽 위 **Use this template(이 템플릿 사용)** → **Create a new repository(새 저장소 만들기)**
@@ -39,6 +41,7 @@ sprint-lab/
 ├── service/        # 수정 대상: 서비스 문서 v1.0
 ├── project/        # 프로젝트 소개, 백로그, WBS·일정·회고 양식
 ├── guides/         # 교시별 안내서
+├── slides/         # 강의 슬라이드 PDF
 ├── CHANGELOG.md    # 릴리스 노트
 └── .github/        # PR 양식, Jira 대체용 이슈 양식
 ```
